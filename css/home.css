@@ -58,7 +58,7 @@ header{
     position: relative;
     z-index: 1000;
      background:black; 
-     background: url(../photos/p3.jpg);
+     background: url(../photos/p2.jpg);
      background-repeat: no-repeat;
      background-size: cover;
 
@@ -67,14 +67,14 @@ header .logo{
     font-family: monoton;
     font-weight: bold;
     font-size: 4.5rem;
-    color: darkslategray;
+    color:rgba(255, 255, 255, 0.911);
 
 }
 
 header .navbar a{
     margin-left: 2rem;
     font-size: 3rem;
-    color:blue;
+    color:white;
     font-family: 'Times New Roman', Times, serif;
 }
 header .navbar a:hover{
@@ -309,55 +309,6 @@ h1{
     
 }
 
-
-/* arduino page 
-.arduino{
-    display:grid;
-    background-color: #fff;
-}
-
-.arduino .box{
-    flex: 20 40rem;
-    border-radius: .5rem;
-    border: .1rem solid black;
-    padding: 1.5rem;
-    
-}
-.arduino .box img{
-    width: 100%;
-    height: 50rem;
-
-}
-.arduino .box h3{
-    font-size: 3.5rem;
-    font-weight: bold;
-    color:green;
-    font-family:elephant;
-}
-.arduino .box p{
-    font-size: 1.6rem;
-    padding: .1rem 0;
-    
-}
-.arduino .uses{
-    padding-left:2rem;
-    font-size: 1.5rem;
-}
-.arduino .uses h2{
-    padding: .5rem;
-    font-family:Diplomata SC;
-    font-size: 2.5rem;
-
-}
-.arduino .uses h1{
-    font-family: Tapestry;
-}
-strong{
-    font-size: 3rem;
-    font-family: 'Times New Roman';
- } */
-
-/* all_components */
 .all_components{
     background-color: #fff;
     display: block;
@@ -440,7 +391,7 @@ section{
     header .navbar{
         position: absolute;
         top: 100% ; left:0; right: 0;
-        background: white;
+        background:#a1a3bb;
         border-top: .1rem solid black;
         border-bottom: .1rem solid black;
         clip-path: polygon(0 0 , 100% 0, 100% 0, 0 0);
