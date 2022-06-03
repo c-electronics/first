@@ -49,25 +49,25 @@ section{
     border-radius: .5rem;
     
 }
-header{
+header{ 
+    position: relative;
     display: flex;
     align-items: center;
     justify-content: space-between;
     width: 100%;
     padding:5rem 7%;
-    position: relative;
     z-index: 1000;
      background:black; 
      background: url(../photos/p2.jpg);
      background-repeat: no-repeat;
      background-size: cover;
-
+     background-position: bottom;
 }
 header .logo{
     font-family: monoton;
     font-weight: bold;
     font-size: 4.5rem;
-    color:rgba(255, 255, 255, 0.911);
+    color:rgb(78, 78, 192);
 
 }
 
