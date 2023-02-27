@@ -76,6 +76,10 @@ header .navbar a{
     font-size: 3rem;
     color:white;
     font-family: 'Times New Roman', Times, serif;
+    -webkit-transition: color 1s ease-out;
+    -moz-transition: color 1s ease-out;
+    -o-transition: color 1s ease-out;
+    transition: color 1s ease-out;
 }
 header .navbar a:hover{
     color: green;
